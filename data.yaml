@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: ../chairs_table/train/images
+val: ../chairs_table/valid/images
+test: ../chairs_table/test/images
 
 nc: 2
 names: ['chair', 'dining table']
