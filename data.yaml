@@ -1,6 +1,6 @@
-train: ../chairs_table/train/images
-val: ../chairs_table/valid/images
-test: ../chairs_table/test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 2
 names: ['chair', 'dining table']
@@ -8,6 +8,6 @@ names: ['chair', 'dining table']
 roboflow:
   workspace: baibhav-mishra-95kci
   project: first-ggmwl
-  version: 1
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/baibhav-mishra-95kci/first-ggmwl/dataset/1
+  url: https://universe.roboflow.com/baibhav-mishra-95kci/first-ggmwl/dataset/2

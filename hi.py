@@ -10,8 +10,8 @@ import fiftyone.zoo as foz
 
 dataset = foz.load_zoo_dataset(
     "coco-2017",
-    split="validation",
-    max_samples=50,
+    split="train",
+    max_samples=1000,
     shuffle=True,
     only_matching=True,
     classes=["chair", "dining table"],
